@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+
+  &__inner {
+    min-height: 132px;
+  }
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 37px;
+  padding-bottom: 54px;
+
+  &--line {
+    border-top: solid 2px #FFFFFF10;
+  }
+}
+
+.footer__contacts {
+
+  &--services {
+    line-height: 1.4;
+  }
+}

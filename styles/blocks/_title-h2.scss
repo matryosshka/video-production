@@ -1,0 +1,30 @@
+.title-h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  &__news {
+    margin-bottom: 51px;
+  }
+
+  &__about {
+    margin-bottom: 37px;
+  }
+
+  &__partners {
+    color: #1A1B1E;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 56px;
+    padding-top: 23px;
+  }
+
+  &__forms {
+    color: #202020;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 56px;
+  }
+}

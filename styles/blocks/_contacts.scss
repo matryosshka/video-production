@@ -1,0 +1,50 @@
+.contacts {
+  margin-left: auto;
+}
+
+.header__contacts {
+  margin-top: 13px;
+  margin-right: 10px;
+  line-height: 1.2;
+}
+
+.footer__contacts {
+  margin-top: 11px;
+  line-height: 1.3;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contacts__dropdown-title {
+  text-align: right;
+  text-decoration: underline;
+  font-size: 13px;
+  color: $orange;
+  transition: .3s;
+
+  &:hover {
+    color: $hoverOrange;
+    cursor: pointer;
+  }
+}
+
+.contacts__info {
+  color: #9A9A9A;
+  text-align: right;
+  font-size: 11px;
+}
+
+.contacts__dropdown {
+  position: relative;
+}
+
+.contacts__dropdown:hover .dropdown {
+  left: initial;
+  right: 0;
+  opacity: 80%;
+  transition: .3s;
+}

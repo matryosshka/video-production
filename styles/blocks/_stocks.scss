@@ -1,0 +1,23 @@
+.stocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 363px;
+  background: #373737 
+  url("../img/party.png") right 20% bottom no-repeat;
+  color: #FFFFFF;
+}
+
+.stocks__text {
+  max-width: 48%;
+}
+
+.stocks__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.37px;
+}
+
+.stocks__text-color {
+  color: #FF5400;
+}

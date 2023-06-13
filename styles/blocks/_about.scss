@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  min-height: 570px;
+  margin-bottom: 30px;
+}
+
+.about__content {
+  display: flex;
+
+  &:before {
+    content: "";
+    display: block;
+    background: url('../img/cameraman.png') center center / cover no-repeat;
+    width: 490px;
+    height: 505px;
+  }
+}
+
+.about__desc {
+  min-height: 455px;
+  max-width: 794px;
+  padding: 69px 202px 55px 81px;
+  margin-left: -136px;
+  margin-top: 93px;
+  background-color: #FFFFFF;
+  color: #060606;
+  border-radius: 5px;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 502px;
+  margin-bottom: 43px;
+}

@@ -1,0 +1,10 @@
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px; 
+
+  &--grey {
+    background: #F4F5F5;
+  }
+}
